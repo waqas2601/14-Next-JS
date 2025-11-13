@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+  /* .btn-primary {
+    @apply inline-block bg-blue-600 text-white font-medium px-5 py-2 rounded-lg hover:bg-blue-700 transition;
+  } */
+
+  .btn-link {
+    @apply text-blue-600 hover:text-blue-800 font-medium underline-offset-2 hover:underline transition;
+  }
+}
